@@ -1,15 +1,4 @@
 class Conta:
-    # teste MERGE no GIT
-    def __init__(self, numero, cpf, taxa = 0.01, saldo = 100.00):
-        self.numero    = numero 
-        self.cpf       = cpf 
-        self.taxa      = taxa 
-        self.saldo     = saldo
-    def imprimir_saldo(self):
-        print("Seu saldo é: %.2f" % self.saldo)
-    def depositar(self, valor): 
-        self.saldo += valor
-    def saque(self, valor):
-        if self.saldo >= valor:
-            self.saldo -= valor
-            self.saldo -= valor * self.taxa
+    # 1 2 3 4 5 6
+    
+
