@@ -1,4 +1,5 @@
 class Conta:
+    # teste MERGE no GIT
     def __init__(self, numero, cpf, taxa = 0.01, saldo = 100.00):
         self.numero    = numero 
         self.cpf       = cpf 
